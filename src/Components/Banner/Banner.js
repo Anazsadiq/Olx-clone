@@ -23,9 +23,9 @@ function Banner() {
         </div>
         <div className="banner">
           <img
-            src="../../../Images/banner copy.png"
+            src="../../../Images/banner copy.png" 
             alt=""
-          />
+            onClick={event =>  window.location.href='/create'} />
         </div>
       </div>
       

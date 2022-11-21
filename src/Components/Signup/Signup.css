@@ -10,12 +10,19 @@
     transform: translate(-50%, -50%);
     border-radius: 6px;
   }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
   
   .signupParentDiv .input {
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
     outline-color: transparent;
+    
   }
   
   .signupParentDiv button {
